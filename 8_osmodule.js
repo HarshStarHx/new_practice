@@ -7,7 +7,7 @@ console.log("the userInfo is inthe operating system " , os.userInfo());
 console.log("the system uptime is " , os.uptime() , "seconds");
 let val = {
     name:os.type(),
-    platform:os.platform()
+    platform:os.platform()// darwin
     ,
     freemen:os.freemem(),
     totalmen:os.totalmem()
